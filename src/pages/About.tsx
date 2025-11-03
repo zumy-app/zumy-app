@@ -34,7 +34,7 @@ const About = () => {
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
-            <h1 className="text-5xl font-bold mb-4">About TechVista</h1>
+            <h1 className="text-5xl font-bold mb-4">About Zumy</h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Pioneering digital transformation through innovative technology solutions
             </p>
@@ -44,8 +44,8 @@ const About = () => {
             <div className="space-y-6">
               <h2 className="text-3xl font-bold">Who We Are</h2>
               <p className="text-muted-foreground text-lg leading-relaxed">
-                TechVista is a forward-thinking IT consulting and product development company dedicated to 
-                transforming businesses through technology. With expertise spanning mobile applications, 
+                Zumy LLC is a forward-thinking IT consulting and product development company based in Wood-Ridge, NJ, 
+                dedicated to transforming businesses through technology. With expertise spanning mobile applications, 
                 web platforms, and enterprise solutions, we turn complex challenges into elegant digital experiences.
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">

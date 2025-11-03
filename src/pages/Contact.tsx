@@ -23,8 +23,8 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      details: "hello@techvista.com",
-      link: "mailto:hello@techvista.com",
+      details: "hello@zumy.com",
+      link: "mailto:hello@zumy.com",
     },
     {
       icon: <Phone className="h-6 w-6" />,
@@ -35,7 +35,7 @@ const Contact = () => {
     {
       icon: <MapPin className="h-6 w-6" />,
       title: "Office",
-      details: "San Francisco, CA",
+      details: "Wood-Ridge, NJ",
       link: "#",
     },
   ];

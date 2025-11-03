@@ -39,7 +39,7 @@ const Index = () => {
           <div className="max-w-4xl mx-auto animate-fade-in">
             <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
               Build the Future with
-              <span className="block gradient-text">TechVista Solutions</span>
+              <span className="block gradient-text">Zumy</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
               Expert technology consulting and innovative product development 
@@ -66,7 +66,7 @@ const Index = () => {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Why Choose TechVista?</h2>
+            <h2 className="text-4xl font-bold mb-4">Why Choose Zumy?</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               We combine technical excellence with creative innovation
             </p>

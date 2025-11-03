@@ -7,9 +7,12 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold gradient-text mb-4">TechVista</h3>
+            <h3 className="text-xl font-bold gradient-text mb-4">Zumy</h3>
             <p className="text-muted-foreground text-sm">
               Transforming ideas into powerful digital solutions. Expert consulting and product development.
+            </p>
+            <p className="text-muted-foreground text-xs mt-2">
+              Zumy LLC • Wood-Ridge, NJ
             </p>
           </div>
 
@@ -72,7 +75,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground text-sm">
-          <p>&copy; {new Date().getFullYear()} TechVista. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Zumy LLC. All rights reserved.</p>
         </div>
       </div>
     </footer>
