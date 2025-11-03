@@ -23,14 +23,14 @@ const Contact = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       title: "Email",
-      details: "hello@zumy.com",
-      link: "mailto:hello@zumy.com",
+      details: "zumyllc@gmail.com",
+      link: "mailto:zumyllc@gmail.com",
     },
     {
       icon: <Phone className="h-6 w-6" />,
       title: "Phone",
-      details: "+1 (555) 123-4567",
-      link: "tel:+15551234567",
+      details: "501-550-4439",
+      link: "tel:+15015504439",
     },
     {
       icon: <MapPin className="h-6 w-6" />,
