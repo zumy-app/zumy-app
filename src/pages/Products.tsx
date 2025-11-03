@@ -12,6 +12,7 @@ const Products = () => {
       status: "Live",
       description: "A feature-rich IPTV client designed for all platforms. Stream your favorite content with an intuitive interface, advanced playback controls, and cross-device synchronization.",
       features: ["Cross-platform support", "HD/4K streaming", "EPG integration", "Parental controls"],
+      link: "https://dreamiptv.app",
     },
     {
       icon: <Home className="h-12 w-12" />,
@@ -19,6 +20,7 @@ const Products = () => {
       status: "In Development",
       description: "A specialized marketplace connecting the global Desi community. Buy, sell, and discover services tailored for NRIs and the diaspora community worldwide.",
       features: ["Community marketplace", "Verified sellers", "Global shipping", "Secure payments"],
+      link: undefined,
     },
     {
       icon: <MessageSquare className="h-12 w-12" />,
@@ -26,6 +28,7 @@ const Products = () => {
       status: "In Development",
       description: "Breaking language barriers with real-time multilingual messaging. Automatically translates messages to bridge communication gaps between people across the world.",
       features: ["Real-time translation", "100+ languages", "Group chats", "Voice messages"],
+      link: undefined,
     },
   ];
 
@@ -61,7 +64,7 @@ const Products = () => {
                     </CardHeader>
                     <CardContent>
                       <h4 className="font-semibold mb-3">Key Features:</h4>
-                      <ul className="space-y-2">
+                      <ul className="space-y-2 mb-4">
                         {product.features.map((feature, idx) => (
                           <li key={idx} className="flex items-center gap-2 text-muted-foreground">
                             <div className="h-1.5 w-1.5 rounded-full bg-primary" />
@@ -69,6 +72,16 @@ const Products = () => {
                           </li>
                         ))}
                       </ul>
+                      {product.link && (
+                        <a 
+                          href={product.link} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center text-primary hover:underline font-medium"
+                        >
+                          Visit Website →
+                        </a>
+                      )}
                     </CardContent>
                   </div>
                 </div>
