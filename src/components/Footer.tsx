@@ -49,6 +49,9 @@ const Footer = () => {
               <li>
                 <span className="text-muted-foreground text-sm">Chorus</span>
               </li>
+              <li>
+                <span className="text-muted-foreground text-sm">Cloud 9 Inventory</span>
+              </li>
             </ul>
           </div>
 

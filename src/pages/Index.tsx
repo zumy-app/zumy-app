@@ -96,7 +96,7 @@ const Index = () => {
               Innovative solutions that are changing how people connect and consume content
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="card-hover">
               <CardHeader>
                 <CardTitle className="text-2xl">DreamIPTV</CardTitle>
@@ -139,6 +139,23 @@ const Index = () => {
               <CardContent>
                 <p className="text-muted-foreground mb-4">
                   Real-time translation that bridges communication gaps across languages and cultures.
+                </p>
+                <Link to="/products">
+                  <Button variant="link" className="px-0">
+                    Learn more <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </Link>
+              </CardContent>
+            </Card>
+
+            <Card className="card-hover">
+              <CardHeader>
+                <CardTitle className="text-2xl">Cloud 9 Inventory</CardTitle>
+                <CardDescription>Store stock scanner for Cloud 9 Market</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground mb-4">
+                  Scan barcodes to manage counts, prices, and new items — synced to Odoo.
                 </p>
                 <Link to="/products">
                   <Button variant="link" className="px-0">

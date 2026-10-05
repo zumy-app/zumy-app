@@ -1,6 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { Tv, Home, MessageSquare } from "lucide-react";
+import { Tv, Home, MessageSquare, Package } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
@@ -28,6 +28,14 @@ const Products = () => {
       status: "In Development",
       description: "Breaking language barriers with real-time multilingual messaging. Automatically translates messages to bridge communication gaps between people across the world.",
       features: ["Real-time translation", "100+ languages", "Group chats", "Voice messages"],
+      link: undefined,
+    },
+    {
+      icon: <Package className="h-12 w-12" />,
+      title: "Cloud 9 Inventory",
+      status: "In Development",
+      description: "In-store stock tool for Cloud 9 Kitchen & Market staff. Scan any barcode to look up products, fix prices, set exact counts, and add new items — synced to the store's Odoo system.",
+      features: ["Barcode scan lookup", "Counts, prices & expiry capture", "Continuous rapid scanning", "Price-label batch export"],
       link: undefined,
     },
   ];
