@@ -61,7 +61,8 @@ const About = () => {
               </p>
               <p className="text-muted-foreground text-lg leading-relaxed">
                 Our portfolio includes innovative products like DreamIPTV, a cross-platform IPTV solution, 
-                NRI Nest marketplace, and Chorus multilingual messaging platform - showcasing our ability 
+                NRI Nest marketplace, Chorus multilingual messaging platform, and Cloud 9 Inventory,
+                our in-store stock scanner for Cloud 9 Kitchen &amp; Market - showcasing our ability 
                 to build products that matter.
               </p>
             </div>
