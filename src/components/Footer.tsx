@@ -70,6 +70,11 @@ const Footer = () => {
 
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground text-sm">
           <p>&copy; {new Date().getFullYear()} Zumy LLC. All rights reserved.</p>
+          <p className="mt-2">
+            <Link to="/apps" className="hover:text-primary transition-colors">
+              App Privacy Policies
+            </Link>
+          </p>
         </div>
       </div>
     </footer>
